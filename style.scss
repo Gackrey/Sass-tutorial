@@ -1,0 +1,19 @@
+@import './variables';
+@import './contact';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    @include flexcenter(row,lightblue);
+    // @extend contact;
+    background-color: lightblue;
+    button{
+        padding: 10px;
+        background-color: $primarybutton;
+        &:hover{
+            background-color: $hovercolor;
+        }
+    }
+}

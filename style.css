@@ -1,0 +1,59 @@
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  background-color: lime;
+}
+
+.contact button {
+  background-color: maroon;
+}
+
+.contact .info p {
+  font-size: xx-large;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  background-color: lightblue;
+  background-color: lightblue;
+}
+
+header button {
+  padding: 10px;
+  background-color: lightcoral;
+}
+
+header button:hover {
+  background-color: lightseagreen;
+}
+/*# sourceMappingURL=style.css.map */

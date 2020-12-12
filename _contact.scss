@@ -1,0 +1,20 @@
+// Mixin example
+@mixin flexcenter($direction,$background) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: $background;
+}
+.contact{
+    @include flexcenter(column,lime);
+    button{
+        background-color: $contactbutton;
+    }
+    .info{
+        p{
+            font-size: xx-large;
+        }
+    }
+}
